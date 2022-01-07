@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>電影訂票</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <link rel="shortcut icon"  href="#">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="row" style="margin: 10px">
+        <div class="col-12" style="margin: 10px">
+            <label>電影名稱</label>
+	    <select id="mname" class="form-control">
+		<option>永恆族</option>
+                <option>蜘蛛人：無家日</option>
+                <option>月老</option>
+                <option>美國女孩</option>
+                <option>法蘭西特派週報</option>
+                <option>魔法滿屋</option>
+            </select>
+            <br />
+	    <label>場次</label>
+	    <select id="sel_session" class="form-control">
+                <option>第一場</option>
+                <option>第二場</option>
+                <option>第三場</option>
+                <option>第四場</option>
+                <option>第五場</option>
+            </select>
+            <br />
+ 
+            
+            <button class="btn btn-success btn-block" id="sure">確定</button>
+        </div>
+    </div>
+
+    <script src="https://static.line-scdn.net/liff/edge/2.1/sdk.js"></script>
+	<script>
+        function initializeLiff(myLiffId) {
+            liff.init({liffId: myLiffId });
+        }
+
+		function pushMsg(mname,session) {
+			if (mname == '' || session == '' ) {  //資料檢查
+				alert('每個項目都必須輸入！');
+			 	return;
+			}
+			var msg = "訂票資訊:";  //回傳訊息字串
+			msg = msg + mname + "/";
+			msg = msg + session ;
+	
+			liff.sendMessages([  //推播訊息
+				{ type: 'text',
+				  text: msg
+				}
+			])
+				.then(() => {
+					liff.closeWindow();  //關閉視窗
+				});
+		}
+
+		$(document).ready(function () {
+			initializeLiff('{{ liffid }}');  //接收傳遞的 liffid 參數
+			$('#sure').click(function (e) {  //按下確定鈕
+				pushMsg($('#mname').val(), $('#sel_session').val());
+			});
+		});
+	</script>
+</body>
+</html>

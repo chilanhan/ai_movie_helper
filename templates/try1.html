@@ -1,0 +1,29 @@
+<body>
+<table>
+<tr>
+<th>User ID</th>
+<th>Username</th>
+<th>Password</th>
+<th>Email</th>
+<th>Sign Up Date</th>
+</tr>
+
+<?php
+$conn =mysqli_connect("localhost","root","!Qqaz2wsx","try");
+$sql="SELECT * FROM MOVIE_INFO";
+$result = $conn->query($sql)S
+
+if($result->num_rows>0){
+   while($row=$result->fetch_assoc()){
+   echo "<tr><td>".$row["mid"].
+}
+
+}else{
+
+echo "no results"
+}
+$conn->close();
+?>
+</table>
+</html>
+

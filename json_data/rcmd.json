@@ -1,0 +1,595 @@
+{
+  "type": "carousel",
+  "contents": [
+  
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "margin": "none",
+        "size": "full",
+        "url": "https://movies.yahoo.com.tw/i/o/production/movies/October2021/v8lYMv5H1HTk4sQUYYpR-756x1080.jpg",
+        "aspectMode": "fit"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "月老",
+            "weight": "bold",
+            "size": "xxl"
+          },
+          {
+            "type": "text",
+            "text": "上映日期：2021.11.24"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "message",
+                  "label": "電影簡介",
+                  "text": "\"慘遭雷擊而死的阿綸來到陰間，生前所有的記憶歸零。他必須做出選擇：投胎轉世卻可能變成蝸牛；或是擔任神職，累積陰德再修轉世為人的正果？阿綸決定成為月老新鮮人，他與個性爆衝粉紅女Pinky（王淨 飾演）搭檔，來到人間執行任務，當阿綸遇見狗狗阿魯以及牽著他的主人小咪時，他前世的記憶都回來了，小咪（宋芸樺 飾演）就是他生前的摯愛。阿綸希望能幫助陽間的小咪尋得新的姻緣，但每一條小咪手上的紅線竟然都被燒毀 同時從陰間逃到人間的鬼頭成（馬志翔 飾演），展開腥風血雨的復仇行動，找上五百年前背叛且殺害自己的馬賊兄弟。當阿綸還在為小咪綁不上紅線雀躍時，鬼頭成卻將小咪視為下一個要毀滅的目標…"
+                }
+              },
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "預告片",
+                  "uri": "https://movies.yahoo.com.tw/video/%E6%9C%88%E8%80%81-%E7%89%B9%E6%95%88%E7%AF%87-075427849.html?movie_id=11563"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "margin": "none",
+        "size": "full",
+        "url": "https://movies.yahoo.com.tw/i/o/production/movies/October2021/MSRbo2ocgQ6N9DdzBUk0-1434x2048.jpg",
+        "aspectMode": "fit"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "永恆族",
+            "weight": "bold",
+            "size": "xxl"
+          },
+          {
+            "type": "text",
+            "text": "上映日期：2021.11.03"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "message",
+                  "label": "電影簡介",
+                  "text": "《永恆族》是超越繁星的神族，七千年前來到地球，誓言保護人類，各色各異的他們，擁有超凡智慧與能力，長生不老，每人具備迥然不同的絕頂神力。然而守護地球期間，各自強大的永恆族人並非和樂融融，內部紛爭不斷，最終整個族群分崩離析，直到一群古老的宿敵現身……"
+                }
+              },
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "預告片",
+                  "uri": "https://movies.yahoo.com.tw/video/%E6%B0%B8%E6%81%86%E6%97%8F-%E6%AD%A3%E5%BC%8F%E9%A0%90%E5%91%8A-134021044.html?movie_id=11472"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+   
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "margin": "none",
+        "size": "full",
+        "url": "https://movies.yahoo.com.tw/i/o/production/movies/November2021/NQoc0dFeP5chnt917Xcd-1080x1543.JPG",
+        "aspectMode": "fit"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "異星隕落",
+            "weight": "bold",
+            "size": "xxl"
+          },
+          {
+            "type": "text",
+            "text": "上映日期：2021.12.03"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "message",
+                  "label": "電影簡介",
+                  "text": "外星人入侵地球的兩年後，澳洲雪梨的倖存者在形勢嚴峻的地面戰中展開反擊。隨著每天傷亡人數的節節高升，反抗軍和他們意外的盟友，揭露了一樁可以讓這場戰爭走向決定性結局的陰謀。當外星人下定決心要將地球改造成它們的家園時，這場關乎人類存亡的戰役也隨之開始……。"
+                }
+              },
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "預告片",
+                  "uri": "https://movies.yahoo.com.tw/video/%E7%95%B0%E6%98%9F%E9%9A%95%E8%90%BD-%E4%B8%AD%E6%96%87%E9%A0%90%E5%91%8A-163131229.html?movie_id=11405"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "margin": "none",
+        "size": "full",
+        "url": "https://movies.yahoo.com.tw/i/o/production/movies/November2021/D8d3zyltdHTo7Qqd8xnM-1080x1543.jpg",
+        "aspectMode": "fit"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "爆裂戰警",
+            "weight": "bold",
+            "size": "xxl"
+          },
+          {
+            "type": "text",
+            "text": "上映日期：2021.12.03"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "message",
+                  "label": "電影簡介",
+                  "text": "十九歲穆斯林少年哈西遭到警察拘留後失蹤多日，而當特警隊員詹斯與麥可在穆斯林社區巡邏時，意外得知哈西在醫院傷重不治的消息從新聞媒體傳來，同時點燃起社區穆斯林年輕人及黑幫壓抑已久的怒火，他們將目標對準這對特警以求報復，情況一觸即發頓時失控。這兩名警員驚覺自己成了攻擊目標，在重兵埋伏面臨敵眾我寡，種種不利情況下，他們必須搏命奮戰，拼死求生，卻也度過人生最長的一日。"
+                }
+              },
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "預告片",
+                  "uri": "https://movies.yahoo.com.tw/video/%E7%88%86%E8%A3%82%E6%88%B0%E8%AD%A6-%E4%B8%AD%E6%96%87%E9%A0%90%E5%91%8A-131404048.html?movie_id=11644"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "margin": "none",
+        "size": "full",
+        "url": "https://movies.yahoo.com.tw/i/o/production/movies/October2021/YjrYJ4pv5jKSOaQHcib8-1280x1813.jpg",
+        "aspectMode": "fit"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "生而為人",
+            "weight": "bold",
+            "size": "xxl"
+          },
+          {
+            "type": "text",
+            "text": "上映日期：2021.12.03"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "message",
+                  "label": "電影簡介",
+                  "text": "楊世南是一位14歲的少年，某天上課時，他肚子痛得厲害，一下課便跑到廁所，結果發現尿液竟然是血紅色的。"
+                }
+              },
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "預告片",
+                  "uri": "https://movies.yahoo.com.tw/video/%E7%94%9F%E8%80%8C%E7%82%BA%E4%BA%BA-%E4%B8%AD%E6%96%87%E9%A0%90%E5%91%8A-145100883.html?movie_id=11589"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "margin": "none",
+        "size": "full",
+        "url": "https://movies.yahoo.com.tw/i/o/production/movies/October2021/1L9YQx79qK0XIPL4zj8O-1912x2732.jpg",
+        "aspectMode": "fit"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "魔法阿媽",
+            "weight": "bold",
+            "size": "xxl"
+          },
+          {
+            "type": "text",
+            "text": "上映日期：2021.11.26"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "message",
+                  "label": "電影簡介",
+                  "text": "有法力的阿媽，打算把阿媽賣掉的孫子，被惡靈附身的黑貓，構成每個台灣囝仔心中共同的阿媽。五歲的豆豆因故暫住看起來很可怕的阿媽家，貪玩的他某日放出被阿媽封印的惡靈，而惡靈為了對付法力強大的阿媽，欺騙豆豆收集阿媽的三滴眼淚..."
+                }
+              },
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "預告片",
+                  "uri": "https://movies.yahoo.com.tw/video/%E9%AD%94%E6%B3%95%E9%98%BF%E5%AA%BD-%E6%AD%A3%E5%BC%8F%E9%A0%90%E5%91%8A-070729214.html?movie_id=11552"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "margin": "none",
+        "size": "full",
+        "url": "https://movies.yahoo.com.tw/i/o/production/movies/November2021/IHZoRhn6UV7K9TJXel1o-1080x1542.jpg",
+        "aspectMode": "fit"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "魔法滿屋",
+            "weight": "bold",
+            "size": "xxl"
+          },
+          {
+            "type": "text",
+            "text": "上映日期：2021.11.26"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "message",
+                  "label": "電影簡介",
+                  "text": "經過醫學博士李培瑞（48歲）的診斷，楊世南其實是「性別分化異常」，俗稱雙性人或陰陽人。也就是說，楊世南身上同時擁有男性和女性的兩套生殖系統，之前的血尿其實是女性生理期來潮的月經。"
+                }
+              },
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "預告片",
+                  "uri": "https://movies.yahoo.com.tw/video/%E9%AD%94%E6%B3%95%E6%BB%BF%E5%B1%8B-%E5%85%A8%E6%96%B0%E6%B4%97%E8%85%A6%E7%A5%9E%E6%9B%B2%E7%AF%87-033603623.html?movie_id=11736"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "margin": "none",
+        "size": "full",
+        "url": "https://movies.yahoo.com.tw/i/o/production/movies/October2021/07U8DS2gXASpL8fxBvLI-3000x4348.jpg",
+        "aspectMode": "fit"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "青春弒戀",
+            "weight": "bold",
+            "size": "xxl"
+          },
+          {
+            "type": "text",
+            "text": "上映日期：2021.11.19"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "message",
+                  "label": "電影簡介",
+                  "text": "電影《青春弒戀》主要描敘六位看似毫無關聯，卻相互影響著彼此，最後捲入青少年隨機砍人案件的故事，將透過愛情、慾望、犯罪包裝6個角色背後賦予的任務與概念，探討Z世代的生活環境，環繞著虛擬、線上遊戲、網紅、社會輿論、家庭問題等等⋯⋯承載著這些來自虛擬卻又真實的視線，一場人人畏懼的殺人案件中，我們可以看見「沒有人是局外人」。"
+                }
+              },
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "預告片",
+                  "uri": "https://movies.yahoo.com.tw/video/%E9%9D%92%E6%98%A5%E5%BC%92%E6%88%80-%E5%90%8D%E4%BA%BA%E6%8E%A8%E8%96%A6%E7%AF%87-121537263.html?movie_id=11508"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "margin": "none",
+        "size": "full",
+        "url": "https://movies.yahoo.com.tw/i/o/production/movies/October2021/eHkRcsdFCSXfRc5uJcpn-1280x1797.jpg",
+        "aspectMode": "fit"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "王者理查",
+            "weight": "bold",
+            "size": "xxl"
+          },
+          {
+            "type": "text",
+            "text": "上映日期：2021.11.18"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "message",
+                  "label": "電影簡介",
+                  "text": "根據染色體檢查結果，李博士建議楊世南的父母勸孩子接受「性別定向手術」，將他生理性別變為女生，並堅信透過醫生的治療，能夠讓楊世南達到生理和心理性別的一致。但也考慮到楊世南正值青春期，父母在未告知楊世南的情況下擅自決定進行這個手術，並讓他/她以女生之姿重生。"
+                }
+              },
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "預告片",
+                  "uri": "https://movies.yahoo.com.tw/video/%E7%8E%8B%E8%80%85%E7%90%86%E6%9F%A5-%E7%9B%A7%E5%BD%A5%E5%8B%B3-%E9%99%B3%E5%BF%B5%E7%90%B4-%E9%83%AD%E5%A9%9E%E6%B7%B3%E7%9C%8B-%E7%8E%8B%E8%80%85%E7%90%86%E6%9F%A5-131019890.html?movie_id=11442"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "margin": "none",
+        "size": "full",
+        "url": "https://movies.yahoo.com.tw/i/o/production/movies/October2021/OP966cW6JqHvUmnSizrq-504x720.jpg",
+        "aspectMode": "fit"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "天才貓奴畫家",
+            "weight": "bold",
+            "size": "xxl"
+          },
+          {
+            "type": "text",
+            "text": "上映日期：2021.12.03"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "message",
+                  "label": "電影簡介",
+                  "text": "《天才貓奴畫家》講述於 19 世紀末英國藝術家路易斯韋恩，才華洋溢的他以畫生動活潑的「擬人化貓」畫作而著名，故事則聚焦在他與10歲年齡差距的妻子艾蜜莉的愛情故事，以及與家人間的緊密關係變化，即使晚年因精神分裂所苦，從未停止畫出關於貓的創作，全都是源於對妻子，以及他們所飼養的小貓彼得身上不可磨滅的愛，故事相當動人，也吸引了康柏拜區的關注：「路易斯的故事非常感人，我因為他的藝術才能而深受吸引，而他的整個人生歷程也十分特別。」 "
+                }
+              },
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "預告片",
+                  "uri": "https://movies.yahoo.com.tw/video/%E5%A4%A9%E6%89%8D%E8%B2%93%E5%A5%B4%E7%95%AB%E5%AE%B6-%E6%AD%A3%E5%BC%8F%E7%89%88%E9%A0%90%E5%91%8A-040540729.html?movie_id=11538"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "margin": "none",
+        "size": "full",
+        "url": "https://movies.yahoo.com.tw/i/o/production/movies/November2021/3YNYcc9IAywO44ZqcwTm-505x720.jpg",
+        "aspectMode": "fit"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "麥迪遜之橋",
+            "weight": "bold",
+            "size": "xxl"
+          },
+          {
+            "type": "text",
+            "text": "上映日期：2021.12.10"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "message",
+                  "label": "電影簡介",
+                  "text": "《麥迪遜之橋》由克林伊斯威特執導，並與梅莉史翠普擔任主演。故事背景設定於60年代的美國，攝影師勞勃（克林伊斯威特　飾演）接受《國家地理雜誌》的任務，到愛荷華州進行拍攝，碰巧向已婚的法蘭西斯（梅莉史翠普　飾演）問路，兩人迅速墜入愛河，一起度過人生中難忘的四天，戀情雖然短暫但都對雙方產生了深遠影響。"
+                }
+              },
+              
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "預告片",
+                  "uri": "https://movies.yahoo.com.tw/video/%E9%BA%A5%E8%BF%AA%E9%81%9C%E4%B9%8B%E6%A9%8B-%E4%B8%AD%E6%96%87%E9%A0%90%E5%91%8A-063937132.html?movie_id=11617"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "margin": "none",
+        "size": "full",
+        "url": "https://movies.yahoo.com.tw/i/o/production/movies/October2021/MC68LWqHGpFls3GB4x1P-1080x1590.jpg",
+        "aspectMode": "fit"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "寶可夢：皮卡丘與可可的冒險",
+            "weight": "bold",
+            "size": "xxl"
+          },
+          {
+            "type": "text",
+            "text": "上映日期：2021.12.10"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "message",
+                  "label": "電影簡介",
+                  "text": "小智和皮卡丘將前往有寶可夢樂園之稱的奥可雅森林，並和由薩戮德撫養長大的人類孩子「可可」相遇。第一次交到了「人類朋友」讓一直深信自己是寶可夢的可可心中產生了一絲懷疑及煩惱，即使如此，可可還是決定和小智及皮卡丘攜手共同對抗打亂奧可雅森林平靜生活的不速之客。"
+                }
+              },
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "預告片",
+                  "uri": "https://movies.yahoo.com.tw/video/%E5%AF%B6%E5%8F%AF%E5%A4%A2-%E7%9A%AE%E5%8D%A1%E4%B8%98%E8%88%87%E5%8F%AF%E5%8F%AF%E7%9A%84%E5%86%92%E9%9A%AA-%E6%AD%A3%E5%BC%8F%E9%A0%90%E5%91%8A-032607892.html?movie_id=11607"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+
+  ]
+}

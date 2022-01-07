@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>我要評分</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <link rel="shortcut icon"  href="#">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="row" style="margin: 10px">
+        <div class="col-12" style="margin: 10px">
+            <label>電影名稱</label>
+	    <select id="mname" class="form-control">
+                <option>007 生死交戰</option>
+                <option>殺手保鑣2</option>
+                <option>猛毒2: 血蜘蛛</option>
+                <option>月光光新慌慌2:萬聖殺</option>
+                <option>天兵阿榮</option>
+                <option>霹靂油俠</option>
+                <option>寶貝老闆2: 家大業大</option>
+                <option>最後的決鬥</option>
+                <option>怒火</option>
+                <option>天崩颶裂</option>
+                <option>殺手寓言：殺手不殺人</option>
+                <option>四個好日子</option>
+                <option>311：東京大震盪</option>
+                <option>爽賺姐妹</option>
+                <option>假面飯店2：假面之夜</option>
+                <option>我的英雄學院劇場版：世界英雄任務</option>
+		<option>永恆族</option>
+                <option>迷離夜蘇活</option>
+                <option>王者理查</option>
+                <option>惡靈古堡首部曲：拉昆市</option>
+                <option>鹿魔</option>
+                <option>撕裂異弒界</option>
+                <option>魔法滿屋</option>
+                <option>安雅與魔女</option>
+                <option>毀滅倒數</option>
+                <option>月老</option>
+                <option>超慄方殺陣</option>
+                <option>沒說出口的殺人告白</option>
+                <option>西城故事</option>
+                <option>蜘蛛人：無家日</option>
+                <option>駭客任務：復活</option>
+                <option>魔鬼剋星3:未來世</option>
+		<option>夜路</option>
+                <option>尖叫旅社4: 變形怪獸</option>
+                <option>杏林醫院</option>
+                <option>破處那件小事</option>
+                <option>死亡醫生的遺產</option>
+                <option>約定的夢幻島</option>
+                <option>緝魂</option>
+                <option>拆彈專家2</option>
+                <option>迷失安狄</option>
+                <option>馬德里金庫盜數90分鐘</option>
+                <option>哭悲</option>
+                <option>幽靈戰場</option>
+                <option>水漾的女人</option>
+                <option>舊愛靈靈妻</option>
+                <option>末路狂奔</option>
+                <option>通靈駕訓班</option>
+		<option>細物警探</option>
+                <option>鬼滅之刃劇場版：無限列車篇</option>
+                <option>聖誕殺戮日</option>
+                <option>叱咤風雲</option>
+                <option>喬瑟與虎與魚群動畫版</option>
+                <option>午夜密令</option>
+                <option>凶宅怪談</option>
+                <option>捍衛救援</option>
+                <option>騙騙愛上你</option>
+                <option>冰血驚魂</option>
+                <option>偷畫男孩</option>
+                <option>角頭外傳：浪流連</option>
+                <option>鬼鄰居</option>
+                <option>迴路追殺令</option>
+                <option>男兒王</option>
+                <option>偷天行動</option>
+		<option>金不厭詐</option>
+                <option>銀龍出任務</option>
+                <option>湯姆貓與傑利鼠</option>
+                <option>跟你老婆去旅行</option>
+                <option>我沒有談的那場戀愛</option>
+                <option>鬼故事收藏館</option>
+                <option>太陽不會動</option>
+                <option>哥吉拉大戰金剛</option>
+                <option>噪反</option>
+                <option>花漾女子</option>
+                <option>尋龍使者</option>
+                <option>無名弒</option>
+                <option>真人快打</option>
+                <option>電影版 嬌妻出沒注意</option>
+                <option>一級任務</option>
+                <option>警慌失措</option>
+		<option>真·三國無雙</option>
+                <option>販膚走卒</option>
+                <option>死亡漩渦:奪魂鋸新遊戲</option>
+                <option>轉彎之後</option>
+                <option>時尚惡女庫伊拉</option>
+                <option>黑寡婦</option>
+                <option>厲陰宅3：是惡魔逼我的</option>
+                <option>詭老</option>
+                <option>怪物奇兵:全新世代</option>
+                <option>叢林奇航</option>
+                <option>失控的審判</option>
+                <option>自殺突擊隊：集結</option>
+                <option>脫稿玩家</option>
+                <option>特種部隊：蛇眼之戰</option>
+                <option>糖果人</option>
+                <option>玩命關頭9</option>
+		<option>追憶人</option>
+                <option>噤界2</option>
+                <option>暫時停止呼吸2</option>
+                <option>紐約高地</option>
+                <option>比得兔兔</option>
+                <option>強運燒肉饌</option>
+                <option>尚氣與十環傳奇</option>
+                <option>沙丘</option>
+		<option>異類崛起</option>
+                <option>疾厄</option>
+                <option>綠騎士</option>
+                <option>密弒遊戲2：勝者危亡</option>
+                <option>高玩殺手</option>
+                <option>疾凍救援</option>
+                <option>蠟筆小新</option>
+                <option>鬼把戲</option>
+		<option>大紅狗克里弗</option>
+                <option>寶可夢：皮卡丘與可可的冒險</option>
+                <option>麥迪遜之橋</option>
+                <option>法蘭西特派週報</option>
+                <option>ANNETTE：星夢戀歌</option>
+                <option>藍宇</option>
+                <option>終極生存戰</option>
+                <option>北海浩劫</option>
+		<option>魔仿犯</option>
+                <option>有你相伴的旅程</option>
+                <option>天菜特警</option>
+                <option>我從來不是幽默的女生</option>
+                <option>死亡教室：母校</option>
+                <option>461個便當</option>
+                <option>天才貓奴畫家</option>
+		<option>生而為人</option>
+                <option>美國女孩</option>
+                <option>獵魂者</option>
+                <option>魔法少女☆伊莉雅：LICHT無名的少女</option>
+                <option>青春特調蜂蜜檸檬蘇打</option>
+                <option>詭祭</option>
+                <option>哈利波特：神秘的魔法石</option>
+ 		<option>仰望星空的少年</option>
+                <option>今晚來點史密斯</option>
+		<option>阿查依蘭的呼喚</option>
+                <option>Fate/Grand Order-終局特異點 冠位時間神殿所羅門-</option>
+                <option>魔法阿媽</option>
+                <option>電影之神</option>
+                <option>偶然與想像</option>
+                <option>青春弒戀</option>
+                <option>金錢男孩MONEYBOYS</option>
+		<option>少女與戰車最終章 第3話</option>
+                <option>梅艷芳</option>
+		<option>詭扯</option>
+                <option>刀劍神域 –Progressive- 無星夜的詠嘆調</option>
+                <option>控制</option>
+                <option>達賴喇嘛：大腦故事</option>
+                <option>總編的復仇</option>
+                <option>瀑布</option>
+                <option>金派特務</option>
+ 		<option>鱷魚</option>
+                <option>逃出奧斯威辛</option>
+		<option>金錢帝國：追虎擒龍</option>
+                <option>蠟筆小新：謎案！天下春日部學院的怪奇事件</option>
+                <option>汪汪隊立大功電影版</option>
+                <option>算牌手</option>
+                <option>抓狂演訓班</option>
+                <option>路卡的夏天</option>
+                <option>操控</option>
+		<option>聽見歌 再唱</option>S
+                <option>醉好的時光</option>
+                <option>Cunningham 機遇之舞</option>
+                <option selected>蜘蛛人：返校日</option>
+                <option>四百擊</option>
+
+
+
+
+
+            </select>
+            <br />
+	    <label>電影評分</label>
+	    <select id="rate" class="form-control">
+                <option selected>5</option>
+                <option>4</option>
+                <option>3</option>
+                <option>2</option>
+                <option>1</option>
+            </select>
+            <br />
+           
+
+            <button class="btn btn-success btn-block" id="sure">確定</button>
+        </div>
+    </div>
+
+    <script src="https://static.line-scdn.net/liff/edge/2.1/sdk.js"></script>
+	<script>
+        function initializeLiff(myLiffId) {
+            liff.init({liffId: myLiffId });
+        }
+
+		function pushMsg(mname, rate ) {
+			if (mname == '' || rate == '' ) {  //資料檢查
+				alert('每個項目都必須輸入！');
+			 	return;
+				liff.closeWindow(); 
+			}
+			var msg = "電影評分:";  //回傳訊息字串
+			msg = msg + mname + "/";
+			msg = msg + rate ;
+			liff.sendMessages([  //推播訊息
+				{ type: 'text',
+				  text: msg
+				}
+			])
+				.then(() => {
+					liff.closeWindow();  //關閉視窗
+				});
+		}
+
+		$(document).ready(function () {
+			initializeLiff('{{ liffid }}');  //接收傳遞的 liffid 參數
+			$('#sure').click(function (e) {  //按下確定鈕
+				pushMsg($('#mname').val(), $('#rate').val());
+			});
+		});
+	</script>
+</body>
+</html>

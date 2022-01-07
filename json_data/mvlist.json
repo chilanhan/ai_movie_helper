@@ -1,0 +1,170 @@
+{
+  "type": "carousel",
+  "contents": [
+    {
+      "type": "bubble",
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "🔥本週排行",
+            "weight": "bold",
+            "size": "xl"
+          }
+        ]
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "button",
+            "style": "primary",
+            "color": "#DB4D6D",
+            "height": "md",
+            "action": {
+              "type": "postback",
+              "label": "本週排行1-10",
+              "data": "action=movie_rank1"
+            }
+          },
+          {
+            "type": "button",
+            "style": "primary",
+            "color": "#FE7773",
+            "height": "md",
+            "action": {
+              "type": "postback",
+              "label": "本週排行11-20",
+              "data": "action=movie_rank2"
+            }
+          },
+          {
+            "type": "button",
+            "style": "primary",
+            "color": "#FF9696",
+            "height": "md",
+            "action": {
+              "type": "uri",
+              "label": "本週台灣電影票房",
+              "uri": "https://www.worldscreen.com.tw/tops.php?type=1&sdate=2021-12-10&edate=2021-12-12&year=2021&month=12#tops"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "bubble",
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "🎬上映中",
+            "weight": "bold",
+            "size": "xl"
+          }
+        ]
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "button",
+            "style": "primary",
+            "color": "#F08A4B",
+            "height": "md",
+            "action": {
+              "type": "postback",
+              "label": "上映電影1-10",
+              "data": "action=on_movie1"
+            }
+          },
+          {
+            "type": "button",
+            "style": "primary",
+            "color": "#F2A541",
+            "height": "md",
+            "action": {
+              "type": "postback",
+              "label": "上映電影11-20",
+              "data": "action=on_movie2"
+            }
+          },
+          {
+            "type": "button",
+            "style": "primary",
+            "color": "#F3CA40",
+            "height": "md",
+            "action": {
+              "type": "postback",
+              "label": "上映電影21-30",
+              "data": "action=on_movie3"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "bubble",
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "🎥即將上映",
+            "weight": "bold",
+            "size": "xl"
+          }
+        ]
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "button",
+            "style": "primary",
+            "color": "#847072",
+            "height": "md",
+            "action": {
+              "type": "postback",
+              "label": "期待電影1-10",
+              "data": "action=coming_movie1"
+            }
+          },
+          {
+            "type": "button",
+            "style": "primary",
+            "color": "#B19693",
+            "height": "md",
+            "action": {
+              "type": "postback",
+              "label": "期待電影11-20",
+              "data": "action=coming_movie2"
+            }
+          },
+          {
+            "type": "button",
+            "style": "primary",
+            "color": "#DCC1B0",
+            "height": "md",
+            "action": {
+              "type": "postback",
+              "label": "期待電影21-30",
+              "data": "action=coming_movie3"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "type": "template",
+  "altText": "this is a carousel template",
+  "template": {
+    "type": "carousel",
+    "columns": [
+      {
+        "text": "o o o ",
+        "actions": [
+          {
+            "type": "postback",
+            "label": "動作 1",
+            "text": "動作 1",
+            "data": "資料 1"
+          },
+          {
+            "type": "message",
+            "label": "動作 2",
+            "text": "動作 2"
+          },
+          {
+            "type": "message",
+            "label": "動作 3",
+            "text": "動作 3"
+          }
+        ],
+        "imageBackgroundColor": "#B63434"
+      },
+      {
+        "text": "文字",
+        "actions": [
+          {
+            "type": "message",
+            "label": "動作 1",
+            "text": "動作 1"
+          },
+          {
+            "type": "message",
+            "label": "動作 2",
+            "text": "動作 2"
+          },
+          {
+            "type": "message",
+            "label": "動作 3",
+            "text": "動作 3"
+          }
+        ]
+      },
+      {
+        "text": "文字",
+        "actions": [
+          {
+            "type": "message",
+            "label": "動作 1",
+            "text": "動作 1"
+          },
+          {
+            "type": "message",
+            "label": "動作 2",
+            "text": "動作 2"
+          },
+          {
+            "type": "message",
+            "label": "動作 3",
+            "text": "動作 3"
+          }
+        ]
+      },
+      {
+        "text": "文字",
+        "actions": [
+          {
+            "type": "message",
+            "label": "動作 1",
+            "text": "動作 1"
+          },
+          {
+            "type": "message",
+            "label": "動作 2",
+            "text": "動作 2"
+          },
+          {
+            "type": "message",
+            "label": "動作 3",
+            "text": "動作 3"
+          }
+        ]
+      }
+    ]
+  }
+}

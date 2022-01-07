@@ -1,0 +1,106 @@
+{
+    "type": "bubble",
+    "hero": {
+      "type": "image",
+      "url": "https://www.kidsplay.com.tw/assets/uploads/articles_diy/%E5%93%88%E5%88%A9%E6%B3%A2%E7%89%B9%E7%9A%84%E5%88%86%E9%A1%9E%E5%B8%BD-1.jpg",
+      "size": "full",
+      "aspectRatio": "20:13",
+      "aspectMode": "cover",
+      "action": {
+        "type": "uri",
+        "uri": "http://linecorp.com/"
+      }
+    },
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "你喜歡哪種電影呢?",
+          "weight": "bold",
+          "size": "xl"
+        }
+      ]
+    },
+    "footer": {
+      "type": "box",
+      "layout": "vertical",
+      "spacing": "sm",
+      "contents": [
+        {
+          "type": "button",
+          "style": "link",
+          "height": "md",
+          "action": {
+            "type": "postback",
+            "label": "家庭喜劇片 ",
+            "data": "家庭 , 喜劇",
+            "displayText": "您喜歡家庭喜劇片！"
+          }
+        },
+        {
+          "type": "button",
+          "style": "link",
+          "height": "md",
+          "action": {
+            "type": "postback",
+            "label": "浪漫愛情片",
+            "data": "浪漫 , 愛情",
+            "displayText": "您喜歡浪漫愛情片！"
+          }
+        },
+        {
+          "type": "button",
+          "style": "link",
+          "height": "md",
+          "action": {
+            "type": "postback",
+            "label": "冒險動作片 ",
+            "data": "冒險 , 動作",
+            "displayText": "您喜歡冒險動作片！"
+          }
+        },
+        {
+          "type": "button",
+          "style": "link",
+          "height": "md",
+          "action": {
+            "type": "postback",
+            "label": "科幻魔法片",
+            "data": "科幻 , 魔法",
+            "displayText": "您喜歡科幻魔法片！"
+          }
+        },
+        {
+          "type": "button",
+          "style": "link",
+          "height": "md",
+          "action": {
+            "type": "postback",
+            "label": "懸疑驚悚片",
+            "data": "懸疑 , 驚悚",
+            "displayText": "您喜歡懸疑驚悚片阿！"
+          }
+        },
+        {
+          "type": "button",
+          "style": "link",
+          "height": "md",
+          "action": {
+            "type": "postback",
+            "label": "家庭動畫片",
+            "data": "家庭 , 動畫",
+            "displayText": "您喜歡家庭動畫片阿！"
+          }
+        },
+
+        
+
+        {
+          "type": "filler"
+        }
+      ],
+      "flex": 0
+    }
+  }
